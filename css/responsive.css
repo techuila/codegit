@@ -289,7 +289,7 @@
 		-o-object-position: -160px -100px;
 	}
 	.right-arrow{
-		right: 70px;
+		right: 65px;
 	}
 	@keyframes floatup{
 		0%{
@@ -305,6 +305,91 @@
 		}
 		100%{
 			margin-top: 90px;
+		}
+	}
+}
+
+/* ==========================================================
+					SCREENS BELOW 600px 
+   ==========================================================*/
+@media only screen and (max-width: 600px){
+	#fp-nav{
+		display: none;
+	}
+	.container{
+		width: 100%;
+	}
+	.content-h{
+		/* top: 25vh; */
+		height: 460px;
+	}
+
+	/* TEAM SECTION AND WORK SECTION */
+	.title-container{
+		transform: translateY(-30%);
+	}
+	.tbl-row{
+		display: block;
+		height: 5px;
+	}
+	.frame{
+		width: 180px;
+	}
+	.frame-group{
+		margin-top: 40%;
+	}
+	.frame-group h3.p-color{
+		margin-bottom: 5px;
+	}
+	.s2 .name-container{
+		position: absolute;
+		bottom: 0;
+	}
+	.s3 .frame-group{
+		margin-top: 48%;
+	}
+	.work-icons{
+		width: 125px;
+		height: 125px;
+		padding-top: 24%;
+		margin-bottom: 20px;
+	}
+	.large.material-icons{
+		font-size: 2.8rem;
+	}
+	.s3.frame{
+		height: 300px;
+	}
+	@keyframes float-photo{
+		0%{
+			top: 35%;
+		}
+		100%{
+			top: 45%;
+		}
+	}
+	@-webkit-keyframes float-photo{
+		0%{
+			top: 35%;
+		}
+		100%{
+			top: 45%;
+		}
+	}
+	@keyframes gtop{
+		0%{
+			
+		}
+		100%{
+			top: 35%;
+		}
+	}
+	@-webkit-keyframes gtop{
+		0%{
+			
+		}
+		100%{
+			top: 35%;
 		}
 	}
 
@@ -355,3 +440,125 @@
 		width: 48.5%;
 	}
 }
+
+/* ==========================================================
+					iPhone (414 x 736) Porttrait
+   ==========================================================*/
+   @media only screen and (max-width: 736px) and (min-width: 414px) and (orientation: portrait){
+	/* HOME SECTION */
+	.titles{
+		letter-spacing: .5em;
+	}
+	.content-h{
+		top: 15vh;
+		height: 460px;
+	}
+	.s-title{
+		letter-spacing: .05em;
+	}
+	@keyframes fadein-float{
+		0%{
+			margin-top: 180px;
+		}
+		100%{
+			margin-top: 140px;
+		}
+	}
+	@-webkit-keyframes fadein-float{
+		0%{
+			margin-top: 180px;
+		}
+		100%{
+			margin-top: 140px;
+		}
+	}
+	
+	/* TEAM SECTION AND WORK SECTION */
+	.photo{
+		width: 100px;
+		height: 100px;
+	}
+	.frame{
+		width: 160px;
+	}
+	.frame-group{
+		margin-top: 41%;
+	}
+	.s3 .frame-group{
+		margin-top: 55%;
+	}
+	.s3 .frame{
+		height: 260px;
+	}
+	.s3 .tbl-row{
+		height: 0px;
+	}
+	.work-icons{
+		width: 100px;
+		height: 100px;
+	}
+	.large.material-icons{
+		font-size: 1.5rem;
+	}
+	.bgg{
+		margin-top: 16px;
+		width: 65px;
+		height: 65px;
+	}
+	h3{
+		font-size: 1.1em;
+	}
+	p{
+		font-size: .95em;
+	}
+
+	/* PORTFOLIO SECTION */
+	.section.s4 header .header-img{
+		margin-top: 0;
+		height: 150px;
+		width: 100%;
+		object-position: 0 -100px;
+		-o-object-position: 0 -100px;
+	}
+	.section.s4 .d2 header .header-img{
+		object-position: 0 -15px;
+		-o-object-position: 0 -15px;
+	}
+	.section.s4 .macbook{
+		width: 250px;
+	}
+	.section.s4 .macbook:hover{
+		width: 280px;
+	}
+	.section.s4 h1.p-color{
+		font-size: 1.5em;
+	}
+	.section.s4 h4{
+		width: 80%;
+		text-align: justify;
+	}
+	.right-arrow{
+		right: 65px;
+	}
+	@keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 35px;
+		}
+	}
+	@-webkit-keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 35px;
+		}
+	}
+
+	/* CONTACT SECTION */
+	.section .contact input{
+		width: 48%;
+	}
+}	
