@@ -4,13 +4,6 @@
 /* ====================================================
                         GLOBAL 
    ====================================================*/
-.c{
-    float: left;
-    display: block;
-    margin-top: -60px;
-    transform: rotateX(90deg);
-}
-
 .container{
     width: 95%;
 	height: 100%;
@@ -38,7 +31,9 @@ body{
 h1,h2{
     font-family: "Montserrat bold", sans-serif;
 }
-
+.right-arrow{
+	right: 130px;
+}
 /* BUTTONS */
 .btn{
     margin: 20px;
@@ -83,14 +78,21 @@ h1,h2{
 
 /* ARTICLES */
 
+.title-container{
+	padding-top: 50%;
+	height: 100%;
+	width: 100%;
+	transform: translateY(-50%);
+	transition: all .5s;
+}
+
 .title{
     font-family: 'Montserrat bold', sans-serif; 
     font-weight: bold;
     opacity: 0;
-    padding: 22% 0 1.5% 0;
+    padding: 0 0 1.5% 0;
     font-size: 2.5em;
     letter-spacing: .15em;
-    transition: all .5s;
 }
 
 .sub{
@@ -136,9 +138,10 @@ h1,h2{
 .content-h{
     top: 35vh;
     z-index: 5;
-    height: 400px;
+	height: 400px;
     color: #fff;
     left: 0; right: 0;
+	padding-left: 5px;
     position: absolute;
 }
 
@@ -152,6 +155,17 @@ h1,h2{
     background-repeat: no-repeat;
     background-image: url('../img/codegit.png');
 }
+.a{
+	justify-content: center;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.c{
+    margin-top: -60px;
+    transform: rotateX(90deg);
+}
+
 .titles{
     font-family: 'Montserrat bold', sans-serif;  
     justify-content: center;
@@ -160,7 +174,9 @@ h1,h2{
     font-weight: bold;
     font-size: 2.5em;
     display: flex;
-    height: 80px;
+	height: 80px;
+	flex-wrap: wrap;
+	margin-left: 30px;
 }
 
 .s-title{
@@ -171,7 +187,6 @@ h1,h2{
 
 #fadein-home,.c-arrow{
     opacity: 0;
-    margin-top: 100px;
     transition: all 1s;
 }
 
@@ -201,7 +216,7 @@ h1,h2{
 
 /* Frame */
 .frame-group{
-    margin-top: 20%;
+    margin-top: 11%;
     transition: all .5s;
     transform: translateY(-50%);
 }
@@ -334,6 +349,7 @@ h1,h2{
 	height: 200px;
 	object-fit: cover;   
 	object-position: 0 -300px; 
+	-o-object-position: 0 -300px; 
 	transition: all 3s;
 	overflow: hidden;
 }
@@ -354,7 +370,7 @@ h1,h2{
 .section.s4 h4{
 	opacity: 0;
 	width: 60%;
-	margin-top: 75px;
+	transition: all .5s;
 }
 
 .section.s4 .macbook{
@@ -385,6 +401,7 @@ h1,h2{
 /* SLide 2 */
 .section.s4 .d2 header .header-img{
 	object-position: 0 -200px; 	
+	-o-object-position: 0 -200px; 	
 }
 
 .section.s4 .d2 h1.p-color{
@@ -471,6 +488,7 @@ h1,h2{
     height: 100%;
     object-fit: cover;
     object-position: -180px;
+    -o-object-position: -180px;
     position: absolute;
     transition: all .5s;
 }
