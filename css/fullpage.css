@@ -1,0 +1,126 @@
+#fp-nav {
+  background-color: #080b16;
+  position: fixed;
+  z-index: 100;
+  margin-top: -32px;
+  top: -50%;
+  height: 100%;
+  opacity: 0;
+  /* box-shadow: -3px 0 5px rgba(0,0,0,0.4); */
+  transition: all 0.5s;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+#fp-nav.right {
+  right: 0;
+  padding-right: 70px;
+}
+#fp-nav.left {
+  left: 17px;
+}
+.fp-slidesNav {
+  position: absolute;
+  z-index: 4;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  left: 0 !important;
+  right: 0;
+  margin: 0 auto !important;
+}
+.fp-slidesNav.bottom {
+  bottom: 17px;
+}
+.fp-slidesNav.top {
+  top: 17px;
+}
+#fp-nav ul,
+.fp-slidesNav ul {
+  position: absolute;
+  padding-left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+#fp-nav ul li,
+.fp-slidesNav ul li {
+  display: block;
+  width: 14px;
+  height: 13px;
+  margin: 34px 25px 30px 7px;
+  position: relative;
+}
+.fp-slidesNav ul li {
+  display: inline-block;
+}
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  height: 12px;
+  width: 12px;
+  /* margin: -6px 0 0 -6px; */
+  border-radius: 100%;
+  color: #00e5ea;
+  outline: 0;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  border-radius: 50%;
+  position: absolute;
+  color: #393e4f;
+  height: 4px;
+  width: 4px;
+  z-index: 1;
+  border: 0;
+  left: 50%;
+  top: 50%;
+  margin: -2px 0 0 -2px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+  opacity: 0;
+}
+#fp-nav ul li .fp-tooltip {
+  top: 13px;
+  opacity: 0;
+  width: 80px;
+  display: block;
+  cursor: pointer;
+  font-size: 10px;
+  max-width: 220px;
+  overflow: hidden;
+  color: #00e5ea;
+  text-align: center;
+  position: absolute;
+  white-space: nowrap;
+  margin-right: -62.5px;
+  font-family: arial, helvetica, sans-serif;
+}
+#fp-nav ul li:hover .fp-tooltip,
+#fp-nav.fp-show-active a.active + .fp-tooltip {
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  opacity: 1;
+}
+#fp-nav ul li .fp-tooltip.right {
+  right: 20px;
+}
+#fp-nav ul li .fp-tooltip.left {
+  left: 20px;
+}
