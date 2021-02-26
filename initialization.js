@@ -1,6 +1,4 @@
 $(document).ready(() => {
-  // onload stay on home
-  // history.pushState('', document.title, window.location.pathname);
   // ====================================================
   // 		  INITIALIZATION FULLPAGEJS (CUSTOMIZED)
   // ====================================================
@@ -86,6 +84,7 @@ $(document).ready(() => {
     afterResize: function () {},
     afterResponsive: function (isResponsive) {},
     afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+      console.log(`asds: ${slideIndex}`);
       showPortfolio(slideIndex);
     },
     onSlideLeave: function (
@@ -182,7 +181,7 @@ $(document).ready(() => {
           $('.s2.sub').css('opacity', '1');
           // * FRAMES *
           setTimeout(() => {
-            $('.s2.title-container').css('padding-top', '15%');
+            $('.s2.title').css('padding-top', '5%');
             floatPhoto();
           }, 1000);
         }, 700);
@@ -198,7 +197,7 @@ $(document).ready(() => {
           $('.s3.sub').addClass('tracking-in-expand');
           // * FRAMES *
           setTimeout(() => {
-            $('.s3.title-container').css('padding-top', '15%');
+            $('.s3.title').css('padding-top', '5%');
             $(`.s3.frame`).css('opacity', '1');
             $(`.s3.frame`).css('margin-top', '0');
             setTimeout(() => {
@@ -243,9 +242,9 @@ $(document).ready(() => {
   // Float photo (TEAM)
   function floatPhoto() {
     setTimeout(() => {
-      $(`.s2.frame:nth-of-type(${++x})`).css('opacity', '1');
-      $(`.s2.frame:nth-of-type(${x})`).css('margin-top', '0');
-      $(`.s2.frame:nth-of-type(${x}) .photo`).css(
+      $(`.s2.frame:nth-child(${++x})`).css('opacity', '1');
+      $(`.s2.frame:nth-child(${x})`).css('margin-top', '0');
+      $(`.s2.frame:nth-child(${x}) .photo`).css(
         'animation',
         'float-photo 2s ease-in-out forwards alternate infinite'
       );
