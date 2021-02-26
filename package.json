@@ -1,0 +1,19 @@
+{
+  "name": "codgit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-particle-network": "^1.5.0",
+    "fullpage.js": "^2.9.6",
+    "install": "^0.11.0",
+    "jquery": "^3.5.1",
+    "materialize-social": "^1.0.3",
+    "typed.js": "^2.0.11"
+  }
+}

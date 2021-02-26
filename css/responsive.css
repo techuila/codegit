@@ -1,0 +1,570 @@
+/* ==========================================================
+					LAPTOP (1280 x 720) 
+   ==========================================================*/
+@media only screen and (max-width: 1280px) and (min-width: 720px){
+	/* TEAM SECTION */
+	.frame{
+		width: 260px;
+	}
+	/* CONTACT SECTION */
+	.section .contact input{
+		width: 48.4%;
+	}
+}
+
+/* ==========================================================
+				APPLE IPAD (768 x 1024) PORTRAIT
+   ==========================================================*/
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+	/* TEAM SECTION  & WORK SECTION*/
+	.frame-group{
+		padding-top: 27%;
+	}
+	.tbl-row{
+		display: block;
+		height: 35px;
+	}
+
+	/* PORTFOLIO SECTION */
+	.section.s4 .d2 header .header-img{
+		object-position: 0 -120px; 	
+		-o-object-position: 0 -120px; 	
+	}
+
+	/* CONTACTS SECTION */
+	@keyframes focus-in-contract-bck {
+		0% {
+		  letter-spacing: .5em;
+		  -webkit-transform: translateZ(300px);
+				  transform: translateZ(300px);
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-transform: translateZ(12px);
+				  transform: translateZ(12px);
+		  -webkit-filter: blur(0);
+				  filter: blur(0);
+		  opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes focus-in-contract-bck {
+		0% {
+		  letter-spacing: .5em;
+		  -webkit-transform: translateZ(300px);
+				  transform: translateZ(300px);
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-transform: translateZ(12px);
+				  transform: translateZ(12px);
+		  -webkit-filter: blur(0);
+				  filter: blur(0);
+		  opacity: 1;
+		}
+	}
+
+	.section .contact input{
+		width: 48.1%;
+	}
+}
+
+/* ==========================================================
+				APPLE IPAD (768 x 1024) PORTRAIT
+   ==========================================================*/
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: portrait){
+	/* HOME SECTION */
+	@keyframes fadein-float{
+		0%{
+			margin-top: 150px;
+		}
+		100%{
+			margin-top: 80px;
+		}
+	}
+	@-webkit-keyframes fadein-float{
+		0%{
+			margin-top: 150px;
+		}
+		100%{
+			margin-top: 80px;
+		}
+	}
+	.content-h{
+		height: 600px;
+	}
+
+	/* TEAM SECTION AND WORK SECTION*/
+	.frame-group{
+		margin-top: 40%;
+	}
+
+	.tbl-row{
+		height: 80px;
+	}
+
+	/* CONTACY SECTION */
+	@keyframes focus-in-contract-bck {
+		0% {
+		  letter-spacing: .2em;
+		  -webkit-transform: translateZ(300px);
+				  transform: translateZ(300px);
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-transform: translateZ(12px);
+				  transform: translateZ(12px);
+		  -webkit-filter: blur(0);
+				  filter: blur(0);
+		  opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes focus-in-contract-bck {
+		0% {
+		  letter-spacing: .2em;
+		  -webkit-transform: translateZ(300px);
+				  transform: translateZ(300px);
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-transform: translateZ(12px);
+				  transform: translateZ(12px);
+		  -webkit-filter: blur(0);
+				  filter: blur(0);
+		  opacity: 1;
+		}
+	}
+	.section.s4 .d2 header .header-img{
+		object-position: 0 -80px; 	
+		-o-object-position: 0 -80px; 	
+	}
+
+	.section .contact input{
+		width: 48.6%;
+	}
+
+	/* CONTACT SECTION */
+	.s5 .left.contact{
+		float: initial;
+	}
+	.s5.container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.contact{
+		display: block;
+		width: 96%;
+		height: 0;
+		order: 2;
+	}
+	.location{
+		display: block;
+		width: 90%;
+		height: 0;
+		order: 1;
+	}
+	.location .bg-location{
+		height: 42%;
+		width: 100%;
+		object-position: 0 0;
+		-o-object-position: 0 0;
+	}
+	.section .contact textarea:focus{
+		height: 115px;
+	}
+}
+
+/* ==========================================================
+				GOOGLE NEXUS 7 (960 x 600) LANDSCAPE
+   ==========================================================*/
+@media only screen and (max-width: 960px) and (min-width: 600px){
+	/* HOME SECTION */
+	@keyframes fadein-float{
+		0%{
+			margin-top: 180px;
+		}
+		100%{
+			margin-top: 85px;
+		}
+	}
+	@-webkit-keyframes fadein-float{
+		0%{
+			margin-top: 180px;
+		}
+		100%{
+			margin-top: 85px;
+		}
+	}
+	.content-h{
+		top: 25vh;
+		height: 460px;
+	}
+
+	/* TEAM SECTION AND WORK SECTION */
+	.tbl-row{
+		display: inline-block;
+	}
+	.frame-group{
+		padding-top: 5%;
+	}
+	.frame{
+		width: 183px;
+	}
+	.name-container{
+		position: absolute;
+	}
+	.work-icons{
+		padding-top: 22%;
+	}
+
+	/* PORTFOLIO SECTION */
+	.section.s4 h4{
+		opacity: 0;
+		width: 60%;
+		margin-top: 40px;
+	}
+	@keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 40px;
+		}
+	}
+	@-webkit-keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 40px;
+		}
+	}
+}
+
+/* ==========================================================
+				GOOGLE NEXUS 7 (960 x 600) PORTRAIT
+   ==========================================================*/
+@media only screen and (max-width: 960px) and (min-width: 600px) and (orientation: portrait){
+	/* HOME SECTION */
+	.container{
+		width: 100%;
+	}
+	.content-h{
+		height: 600px;
+	}
+	#fp-nav{
+		display: none;
+	}
+	
+	/* TEAM SECTION AND WORK SECTION */
+	.title-container{
+		transform: translateY(-10%);
+	}
+	.tbl-row{
+		display: block;
+		height: 100px;
+	}
+	.frame-group{
+		margin-top: 60%;
+	}
+
+	/* PORTFOLIO SECTION */
+	.section.s4 header .header-img{
+		margin-top: 0;
+		width: 960px;
+		object-position: -150px -220px;
+		-o-object-position: -150px -220px;
+	}
+	.section.s4 .d2 header .header-img{
+		object-position: -160px -100px;
+		-o-object-position: -160px -100px;
+	}
+	.right-arrow{
+		right: 65px;
+	}
+	@keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 90px;
+		}
+	}
+	@-webkit-keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 90px;
+		}
+	}
+}
+
+/* ==========================================================
+					SCREENS BELOW 600px 
+   ==========================================================*/
+@media only screen and (max-width: 600px){
+	#fp-nav{
+		display: none;
+	}
+	.container{
+		width: 100%;
+	}
+	.content-h{
+		/* top: 25vh; */
+		height: 460px;
+	}
+
+	/* TEAM SECTION AND WORK SECTION */
+	.title-container{
+		transform: translateY(-30%);
+	}
+	.tbl-row{
+		display: block;
+		height: 5px;
+	}
+	.frame{
+		width: 180px;
+	}
+	.frame-group{
+		margin-top: 40%;
+	}
+	.frame-group h3.p-color{
+		margin-bottom: 5px;
+	}
+	.s2 .name-container{
+		position: absolute;
+		bottom: 0;
+	}
+	.s3 .frame-group{
+		margin-top: 48%;
+	}
+	.work-icons{
+		width: 125px;
+		height: 125px;
+		padding-top: 24%;
+		margin-bottom: 20px;
+	}
+	.large.material-icons{
+		font-size: 2.8rem;
+	}
+	.s3.frame{
+		height: 300px;
+	}
+	@keyframes float-photo{
+		0%{
+			top: 35%;
+		}
+		100%{
+			top: 45%;
+		}
+	}
+	@-webkit-keyframes float-photo{
+		0%{
+			top: 35%;
+		}
+		100%{
+			top: 45%;
+		}
+	}
+	@keyframes gtop{
+		0%{
+			
+		}
+		100%{
+			top: 35%;
+		}
+	}
+	@-webkit-keyframes gtop{
+		0%{
+			
+		}
+		100%{
+			top: 35%;
+		}
+	}
+
+	/* CONTACT SECTION */
+	@keyframes focus-in-contract-bck {
+		0% {
+		  letter-spacing: .15em;
+		  -webkit-transform: translateZ(300px);
+				  transform: translateZ(300px);
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-transform: translateZ(12px);
+				  transform: translateZ(12px);
+		  -webkit-filter: blur(0);
+				  filter: blur(0);
+		  opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes focus-in-contract-bck {
+		0% {
+		  letter-spacing: .15em;
+		  -webkit-transform: translateZ(300px);
+				  transform: translateZ(300px);
+		  -webkit-filter: blur(12px);
+				  filter: blur(12px);
+		  opacity: 0;
+		}
+		100% {
+		  -webkit-transform: translateZ(12px);
+				  transform: translateZ(12px);
+		  -webkit-filter: blur(0);
+				  filter: blur(0);
+		  opacity: 1;
+		}
+	}
+	
+	.location{
+		display: none;
+	}
+	.contact{
+		width: 100%;
+	}
+	.section .contact input{
+		width: 48.5%;
+	}
+}
+
+/* ==========================================================
+					SCREEMS 450px BELOW
+   ==========================================================*/
+@media only screen and (max-width: 450px) {
+	/* HOME SECTION */
+	.titles{
+		letter-spacing: .5em;
+	}
+	.content-h{
+		top: 15vh;
+		height: 460px;
+	}
+	.s-title{
+		letter-spacing: .05em;
+	}
+	@keyframes fadein-float{
+		0%{
+			margin-top: 180px;
+		}
+		100%{
+			margin-top: 140px;
+		}
+	}
+	@-webkit-keyframes fadein-float{
+		0%{
+			margin-top: 180px;
+		}
+		100%{
+			margin-top: 140px;
+		}
+	}
+	
+	/* TEAM SECTION AND WORK SECTION */
+	.frame>blockquote{
+		margin-top: 132px;
+		font-size: .9em;
+	}
+	.photo{
+		width: 100px;
+		height: 100px;
+	}
+	.frame{
+		width: 135px;
+		height: 230px;
+	}
+	.frame-group{
+		margin-top: 41%;
+	}
+	.s3 .frame-group{
+		margin-top: 55%;
+	}
+	.s3 .frame{
+		height: 230px;
+	}
+	.s3 .tbl-row{
+		height: 0px;
+	}
+	.work-icons{
+		padding-top: 13.5%;
+		width: 70px;
+		height: 70px;
+	}
+	.large.material-icons{
+		font-size: 1.8rem;
+	}
+	.bgg{
+		margin-top: 14px;
+		width: 45px;
+		height: 45px;
+	}
+	.frame-group h3.p-color{
+		font-size: 1em;
+	}
+	p{
+		font-size: .95em;
+	}
+
+	/* PORTFOLIO SECTION */
+	.section.s4 header .header-img{
+		margin-top: 0;
+		height: 150px;
+		width: 100%;
+		object-position: 0 -100px;
+		-o-object-position: 0 -100px;
+	}
+	.section.s4 .d2 header .header-img{
+		object-position: 0 -15px;
+		-o-object-position: 0 -15px;
+	}
+	.section.s4 .macbook{
+		width: 250px;
+	}
+	.section.s4 .macbook:hover{
+		width: 280px;
+	}
+	.section.s4 h1.p-color{
+		font-size: 1.5em;
+	}
+	.section.s4 h4{
+		width: 80%;
+		text-align: justify;
+	}
+	.right-arrow{
+		right: 65px;
+	}
+	@keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 35px;
+		}
+	}
+	@-webkit-keyframes floatup{
+		0%{
+			margin-top: 110px;
+		}
+		100%{
+			margin-top: 35px;
+		}
+	}
+
+	/* CONTACT SECTION */
+	.section .contact input{
+		width: 47.5%;
+	}
+}	
