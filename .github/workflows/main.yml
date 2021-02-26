@@ -26,4 +26,5 @@ jobs:
     steps:
       - name: Copy files to /var/www
         run: |
+          rm -rf $PROJECT_DIR
           cp -r ./ $PROJECT_DIR
