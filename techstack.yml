@@ -1,11 +1,12 @@
 repo_name: techuila/codegit
 report_id: 8534081cb31e502020c3a6ef02e52935
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T06:31:19+00:00'
+timestamp: '2024-01-05T08:42:57+00:00'
 requested_by: techuila
 provider: github
 branch: master
-detected_tools_count: 253
+detected_tools_count: 256
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/techuila/codegit
   detection_source: Repo Metadata
 - name: D
   description: Modern convenience. Modeling power. Native efficiency.
@@ -24,7 +26,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3117/d-5.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: JavaScript
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/techuila/codegit
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -71,8 +77,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
-  detection_source_url: node_modules/materializecss/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/materializecss/package.json
+  detection_source: node_modules/materializecss/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: Ember.js
@@ -84,7 +90,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/1018/3s1seyc0csl75btyw1vl.png
-  detection_source_url: node_modules/es6-promise/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -98,8 +104,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
-  detection_source_url: node_modules/materialize-social/package.json
-  detection_source: node_modules/materialize-social/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/materialize-social/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Next.js
@@ -110,7 +116,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Node.js
@@ -122,7 +129,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: Protobuf
@@ -133,7 +141,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: RxJS
@@ -145,8 +154,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Concurrency Frameworks
   image_url: https://img.stackshare.io/service/1796/984368.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/package-lock.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: jQuery
@@ -159,8 +168,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: package-lock.json
-  detection_source: package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/package-lock.json
+  detection_source: node_modules/jquery/bower.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Mentat
@@ -172,6 +181,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -184,7 +194,8 @@ tools:
   category: Data Stores
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: ws
@@ -196,7 +207,8 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Babel
@@ -209,8 +221,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: node_modules/jquery/package.json
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Broccoli
@@ -222,6 +234,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/2861/default_d671729829d501f38cd6e6f5fc463482b7f588ae.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -234,6 +247,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -247,8 +261,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: node_modules/es6-shim/package.json
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Closure Compiler
@@ -260,6 +274,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Optimizers
   image_url: https://img.stackshare.io/service/3794/wBjKn0ol.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -272,6 +287,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -284,7 +300,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/.eslintrc
+  detection_source: node_modules/es6-shim/.eslintrc
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Git
@@ -295,6 +312,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/techuila/codegit
   detection_source: Repo Metadata
 - name: Git-Repo
   description: Manage Gitlab, GitHub and Bitbucket from the command line
@@ -305,6 +323,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -316,6 +335,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/.github/workflows/main.yml
   detection_source: ".github/workflows/main.yml"
   last_updated_by: techuila
   last_updated_on: 2021-02-26 14:42:33.000000000 Z
@@ -327,7 +347,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
-  detection_source: node_modules/es6-shim/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Jasmine
@@ -338,6 +359,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -350,6 +372,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/670/jenkins.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -363,8 +386,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: node_modules/jquery/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: Mocha
@@ -378,8 +401,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: node_modules/es6-promise/package.json
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Protractor
@@ -392,7 +415,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1754/protractor-logo1.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -404,6 +427,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -417,7 +441,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -430,7 +454,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/852/1781835.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -442,6 +466,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -454,8 +479,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: node_modules/jquery/package.json
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: TSLint
@@ -466,6 +491,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -478,6 +504,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/851/testling.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -491,8 +518,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: node_modules/rxjs/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
+  detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: gulp
@@ -505,8 +532,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/844/iruTC031.png
-  detection_source_url: node_modules/reflect-metadata/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
+  detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: hub
@@ -519,7 +546,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: jsdom
@@ -533,7 +561,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/7054/preview.jpeg
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -545,7 +573,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: pre-commit
@@ -556,6 +585,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -567,7 +597,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Chartio
@@ -578,7 +609,8 @@ tools:
   category: Analytics
   sub_category: Business Intelligence
   image_url: https://img.stackshare.io/service/9/TtrFaQ3j_400x400.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Alt
@@ -589,6 +621,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3649/default_01276c9c0c79674b16f9b29216bd8cc7ce9b894d.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -600,7 +633,8 @@ tools:
   category: Back Office
   sub_category: Web Browser
   image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: Font Awesome
@@ -611,6 +645,7 @@ tools:
   category: Design
   sub_category: Fonts
   image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/materialize-social/bower.json
   detection_source: node_modules/materialize-social/bower.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -623,7 +658,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -636,7 +671,8 @@ tools:
   category: Application Utilities
   sub_category: Mapping APIs
   image_url: https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: Q
@@ -649,7 +685,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -662,7 +698,8 @@ tools:
   category: Mobile
   sub_category: Cross-Platform Mobile Tools
   image_url: https://img.stackshare.io/service/6422/react-navigation.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: husky
@@ -670,7 +707,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: js
@@ -678,7 +716,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5588/jscom.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: lint-staged
@@ -686,6 +725,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -694,7 +734,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: "@angular/router"
@@ -706,7 +747,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source: node_modules/angular2/ts/src/router/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/src/router/package.json
+  detection_source: node_modules/angular2/es6/dev/src/router/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: "@babel/core"
@@ -719,7 +761,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -732,7 +774,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: "@types/chai"
@@ -745,7 +788,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: node_modules/reflect-metadata/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -759,7 +802,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/reflect-metadata/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -773,7 +816,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: node_modules/reflect-metadata/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -786,7 +829,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16174/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: angular2
@@ -799,8 +843,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17505/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/materializecss/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/package-lock.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: async
@@ -812,6 +856,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -824,7 +869,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15883/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: babel-cli
@@ -837,7 +883,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15804/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/symbol-observable/package.json
   detection_source: node_modules/symbol-observable/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -851,7 +897,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15867/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -865,7 +911,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15805/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/symbol-observable/package.json
   detection_source: node_modules/symbol-observable/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -880,7 +926,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -893,6 +939,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16771/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -906,7 +953,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17221/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: broccoli-merge-trees
@@ -919,7 +967,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16793/default_9a5182350af29cb82b3344853e865051f508ac6c.png
-  detection_source_url: node_modules/es6-promise/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -932,6 +980,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16609/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -944,7 +993,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17384/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: co
@@ -956,7 +1006,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: code
@@ -968,7 +1019,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16417/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: color
@@ -981,7 +1033,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -995,7 +1047,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1009,7 +1061,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16008/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1022,7 +1074,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18220/default_46cc7e5b7a8c78af11a3ee7db2fc5fe39f295a6e.png
-  detection_source: node_modules/materializecss/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: conf
@@ -1034,7 +1087,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: config
@@ -1046,7 +1100,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: connect
@@ -1058,6 +1113,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1070,6 +1126,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16618/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1082,6 +1139,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17538/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1095,7 +1153,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1108,7 +1166,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17017/default_824835a71140f223a333a5e10225c10368f12857.png
-  detection_source: node_modules/materializecss/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/materialize-social/package.json
+  detection_source: node_modules/materialize-social/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: cz-conventional-changelog
@@ -1121,7 +1180,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15961/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1135,7 +1194,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18502/default_e81b0bd76811f164978fa6f4c4f71e0f1ccf1507.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1149,7 +1208,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
-  detection_source_url: node_modules/reflect-metadata/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1163,6 +1222,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16828/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1176,7 +1236,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16760/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1189,6 +1249,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16311/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1201,7 +1262,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: ember-cli
@@ -1214,7 +1276,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16096/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
-  detection_source_url: node_modules/es6-promise/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1229,7 +1291,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16121/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: node_modules/es6-promise/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1243,7 +1305,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16528/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: node_modules/es6-shim/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1258,8 +1320,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16051/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/package-lock.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: escape-string-regexp
@@ -1272,7 +1334,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1286,7 +1348,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16443/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1299,6 +1361,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16371/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1311,6 +1374,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17801/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1324,7 +1388,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: fs-extra
@@ -1338,7 +1403,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1351,6 +1416,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16772/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1364,7 +1430,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16804/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1377,6 +1443,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17740/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1390,8 +1457,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: node_modules/es6-shim/package.json
-  detection_source: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
   vulnerabilities:
@@ -1423,7 +1490,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16633/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1437,7 +1504,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1451,7 +1518,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: node_modules/es6-shim/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1465,7 +1532,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1479,8 +1546,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: node_modules/es6-shim/package.json
-  detection_source: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: grunt-eslint
@@ -1493,7 +1560,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16384/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1507,7 +1574,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17749/default_8cfeb169319d5cc646c1e13f8a10e7d7e7430d7c.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1521,7 +1588,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16328/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1543,7 +1610,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17008/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1556,6 +1623,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17652/default_eb9caf7d7fb4d231f7e3b04a8c1fbef6fcd9fd73.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1569,7 +1637,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17562/default_3c6aa8b4297562bfc2a090966a5bc0fad1d0b678.png
-  detection_source_url: node_modules/es6-shim/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1583,7 +1651,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15960/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: node_modules/reflect-metadata/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1597,8 +1665,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
-  detection_source_url: node_modules/reflect-metadata/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
+  detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: gulp-sequence
@@ -1611,7 +1679,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16729/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
-  detection_source_url: node_modules/reflect-metadata/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1625,7 +1693,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1639,7 +1707,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1653,7 +1721,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16649/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1666,6 +1734,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18039/image.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1678,6 +1747,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18457/default_1ee30bb84bfc1558e9a2c7e21dfb728addee0444.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1690,7 +1760,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17059/default_31b594d049ba66ce98c924544ccc4329a3f2d530.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: http
@@ -1701,7 +1772,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: http-server
@@ -1714,7 +1786,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1727,9 +1799,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
+  last_updated_by: techuila
+  last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: i
   description: Custom inflections for nodejs
   package_url: https://www.npmjs.com/i
@@ -1739,7 +1826,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: ini
@@ -1751,7 +1839,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: ip
@@ -1763,7 +1852,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: is
@@ -1775,7 +1865,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: jasmine-core
@@ -1788,7 +1879,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1802,7 +1893,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16176/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: node_modules/es6-shim/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1817,7 +1908,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18321/default_5595878913d7a8dc496a66a64daf4737f9176891.png
-  detection_source_url: node_modules/es6-promise/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1830,6 +1921,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17358/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1843,7 +1935,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17310/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1857,8 +1949,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/jquery/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: karma-firefox-launcher
@@ -1871,8 +1963,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: node_modules/jquery/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
+  detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: karma-ie-launcher
@@ -1885,7 +1977,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16553/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1899,7 +1991,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1913,7 +2005,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17515/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1927,7 +2019,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16426/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1941,7 +2033,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16460/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1956,7 +2048,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16011/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1970,7 +2062,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -1983,6 +2075,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18501/default_e81b0bd76811f164978fa6f4c4f71e0f1ccf1507.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -1995,9 +2088,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16367/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
+  detection_source: node_modules/rxjs/package.json
+  last_updated_by: techuila
+  last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: live-server
   description: Simple development http server with live reload capability
   package_url: https://www.npmjs.com/live-server
@@ -2007,6 +2115,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16905/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2020,7 +2129,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16062/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2033,7 +2142,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17960/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/materialize-social/package.json
+  detection_source: node_modules/materialize-social/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: madge
@@ -2046,7 +2156,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18251/default_d7af0607656aecc036ca87d563e99619deb7cf84.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2066,6 +2176,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17001/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2078,6 +2189,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16534/default_2d1a470f86144a45b7e94185b9a5aecb5ebb69f4.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2090,7 +2202,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17573/default_4627bd50a25f9a490243683fabcc5c97d552aa2a.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
+  detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: minify
@@ -2102,7 +2215,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18688/default_97b689c91e523aad5ccec45c3b88d1f9b7cb4b6f.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: minimist
@@ -2115,7 +2229,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2148,7 +2262,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2161,7 +2275,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: node
@@ -2173,7 +2288,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17983/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: np
@@ -2185,7 +2301,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: npm
@@ -2197,7 +2314,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: npm-run-all
@@ -2210,7 +2328,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2223,6 +2341,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16235/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2236,7 +2355,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2249,7 +2368,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18695/default_ba22650903e999378ab35f8093d2d808f0a46039.png
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: opn
@@ -2261,6 +2381,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16099/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2274,7 +2395,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16826/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2287,6 +2408,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15937/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/reflect-metadata/package.json
   detection_source: node_modules/reflect-metadata/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2299,7 +2421,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17784/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: pad
@@ -2311,6 +2434,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18387/default_443ead48d03f7b1fc57a05db4ff2c559c3e54f5e.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2323,6 +2447,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17469/default_2a4dc012d9584af49ba34825451ae7a5a8d75e4b.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2336,7 +2461,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18335/default_cef8b737c55fccc3604e91ce246aef30fc604c73.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2350,8 +2475,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16093/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
-  detection_source_url: node_modules/rxjs/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: promises-aplus-tests
@@ -2364,8 +2489,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18159/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
-  detection_source_url: node_modules/es6-shim/package.json
-  detection_source: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: publish
@@ -2377,7 +2502,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18190/default_b56a957d927d2e40d2c7cf9f3588b95c4df2c97c.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: raw-body
@@ -2390,7 +2516,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17336/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2403,7 +2529,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16813/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: read
@@ -2415,6 +2542,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17342/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/fontawesome/package.json
   detection_source: node_modules/fontawesome/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2427,7 +2555,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18418/default_4d27e57a415c059481cbe1fd0734523c261d311a.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: reflect-metadata
@@ -2440,8 +2569,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/reflect-metadata/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/package-lock.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: release-it
@@ -2454,7 +2583,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16490/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: node_modules/es6-promise/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2467,6 +2596,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2479,6 +2609,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2492,7 +2623,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2505,7 +2636,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16783/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: sass
@@ -2517,6 +2649,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/materialize-social/package.json
   detection_source: node_modules/materialize-social/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2529,7 +2662,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: shx
@@ -2542,7 +2676,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2556,7 +2690,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15914/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2569,7 +2703,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: source-map-support
@@ -2582,7 +2717,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2595,7 +2730,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: stream
@@ -2607,6 +2743,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18008/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2620,7 +2757,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16825/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: stringify
@@ -2632,7 +2770,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18492/default_9c45ef918d27804fb2a0b2f31e341286bc3bc5d7.png
-  detection_source: node_modules/angular2/ts/src/http/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/package.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: strip-json-comments
@@ -2645,7 +2784,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16973/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/jquery/package.json
   detection_source: node_modules/jquery/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2659,8 +2798,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18545/default_0e8c62fd0420ce3873a7b150d09fb9d1094266c0.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/symbol-observable/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/package-lock.json
+  detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: tar
@@ -2672,9 +2811,23 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
+- name: test
+  description: ''
+  package_url: https://www.npmjs.com/test
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18204/default_329699d382cad74e0d389300999bd267b9699d3f.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
+  last_updated_by: techuila
+  last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: ts-loader
   description: TypeScript loader for webpack
   package_url: https://www.npmjs.com/ts-loader
@@ -2685,7 +2838,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2698,7 +2851,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18739/default_45da7a7c78da21b4de04db19cc949c3490185f5e.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/materializecss/package.json
+  detection_source: node_modules/materializecss/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: tsd
@@ -2711,7 +2865,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16858/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2725,7 +2879,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2739,8 +2893,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16198/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
-  detection_source_url: node_modules/rxjs/package.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
 - name: uglify
@@ -2752,7 +2906,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18097/image.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: uglify-js
@@ -2765,8 +2920,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: node_modules/es6-shim/package.json
-  detection_source: node_modules/jquery/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: uglifyjs
@@ -2778,6 +2933,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16624/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2790,7 +2946,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/package.json
+  detection_source: node_modules/angular2/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: user
@@ -2802,6 +2959,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17329/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-shim/package.json
   detection_source: node_modules/es6-shim/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2814,6 +2972,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2828,7 +2987,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16338/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2841,6 +3000,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16406/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2854,7 +3014,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16203/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2868,7 +3028,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16081/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2882,8 +3042,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16280/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: node_modules/rxjs/package.json
-  detection_source: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
+  detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: watchify
@@ -2895,6 +3055,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16087/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/es6-promise/package.json
   detection_source: node_modules/es6-promise/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2908,6 +3069,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16782/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2920,6 +3082,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16550/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2933,6 +3096,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18762/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/zone.js/package.json
   detection_source: node_modules/zone.js/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2945,6 +3109,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18460/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
@@ -2958,7 +3123,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16759/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
-  detection_source_url: node_modules/rxjs/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/rxjs/package.json
   detection_source: node_modules/rxjs/package.json
   last_updated_by: techuila
   last_updated_on: 2021-02-26 15:14:29.000000000 Z
@@ -2972,8 +3137,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: package-lock.json
-  detection_source: node_modules/zone.js/package.json
+  detection_source_url: https://github.com/techuila/codegit/blob/master/package-lock.json
+  detection_source: node_modules/angular2/es6/dev/package.json
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: ace
@@ -2984,7 +3149,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: analyzer
@@ -2996,7 +3162,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: angular
@@ -3007,7 +3174,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: barback
@@ -3020,7 +3188,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: build
@@ -3031,7 +3200,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: dart_style
@@ -3042,7 +3212,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: func
@@ -3054,7 +3225,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: guinness
@@ -3065,7 +3237,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: guinness2
@@ -3076,7 +3249,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: html
@@ -3087,7 +3261,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: intl
@@ -3098,7 +3273,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: io
@@ -3109,7 +3285,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: js
@@ -3120,7 +3297,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: logging
@@ -3131,7 +3309,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: observe
@@ -3142,7 +3321,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: page
@@ -3153,7 +3333,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: path
@@ -3164,7 +3345,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: protobuf
@@ -3175,7 +3357,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: quiver
@@ -3187,7 +3370,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: source_span
@@ -3198,7 +3382,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: stack_trace
@@ -3209,7 +3394,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: test
@@ -3220,7 +3406,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: transformer
@@ -3231,7 +3418,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: transformer_test
@@ -3242,7 +3430,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
 - name: version
@@ -3254,6 +3443,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source: node_modules/angular2/ts/pubspec.yaml
+  detection_source_url: https://github.com/techuila/codegit/blob/master/node_modules/angular2/es6/dev/pubspec.yaml
+  detection_source: node_modules/angular2/es6/dev/pubspec.yaml
   last_updated_by: nerdcorez
   last_updated_on: 2018-04-14 10:09:10.000000000 Z
