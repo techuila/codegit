@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 techuila/codegit is built on the following main stack:
+
 - [Chartio](https://chartio.com) – Business Intelligence
 - [Jenkins](http://jenkins-ci.org/) – Continuous Integration
 - [Coveralls](https://coveralls.io/) – Code Coverage
@@ -53,11 +54,13 @@ techuila/codegit is built on the following main stack:
 - [ent](https://entgo.io/) – Object Relational Mapper (ORM)
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 techuila/codegit is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/9/TtrFaQ3j_400x400.png' alt='Chartio'/> [Chartio](https://chartio.com) – Business Intelligence
 - <img width='25' height='25' src='https://img.stackshare.io/service/670/jenkins.png' alt='Jenkins'/> [Jenkins](http://jenkins-ci.org/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
@@ -109,14 +112,15 @@ techuila/codegit is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png' alt='ent'/> [ent](https://entgo.io/) – Object Relational Mapper (ORM)
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [techuila/codegit](https://github.com/techuila/codegit)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|253<br/>Tools used|11/15/23 <br/>Report generated|
+|256<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -623,9 +627,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (195)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (198)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (170)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (173)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -705,6 +709,7 @@ Full tech stack [here](/techstack.md)
 |[http](https://www.npmjs.com/http)|N/A|04/14/18|nerdcorez |BSD-2-Clause|N/A|
 |[http-server](https://www.npmjs.com/http-server)|v0.9.0|02/26/21|techuila |MIT|N/A|
 |[https](https://www.npmjs.com/https)|N/A|04/14/18|nerdcorez |ISC|N/A|
+|[husky](https://www.npmjs.com/husky)|v1.3.1|02/26/21|techuila |MIT|N/A|
 |[i](https://www.npmjs.com/i)|N/A|04/14/18|nerdcorez |MIT|N/A|
 |[ini](https://www.npmjs.com/ini)|N/A|04/14/18|nerdcorez |ISC|N/A|
 |[ip](https://www.npmjs.com/ip)|N/A|04/14/18|nerdcorez |MIT|N/A|
@@ -725,6 +730,7 @@ Full tech stack [here](/techstack.md)
 |[karma-webpack](https://www.npmjs.com/karma-webpack)|v1.7.0|02/26/21|techuila |MIT|N/A|
 |[klaw](https://www.npmjs.com/klaw)|N/A|04/14/18|nerdcorez |MIT|N/A|
 |[lab](https://www.npmjs.com/lab)|N/A|04/14/18|nerdcorez |BSD-3-Clause|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v3.2.5|02/26/21|techuila |MIT|N/A|
 |[live-server](https://www.npmjs.com/live-server)|N/A|04/14/18|nerdcorez |MIT|N/A|
 |[load-grunt-tasks](https://www.npmjs.com/load-grunt-tasks)|v4.0.0|02/26/21|techuila |MIT|N/A|
 |[log](https://www.npmjs.com/log)|N/A|04/14/18|nerdcorez |ISC|N/A|
@@ -776,6 +782,7 @@ Full tech stack [here](/techstack.md)
 |[strip-json-comments](https://www.npmjs.com/strip-json-comments)|v2.0.1|02/26/21|techuila |MIT|N/A|
 |[symbol-observable](https://www.npmjs.com/symbol-observable)|v1.0.1|02/26/21|techuila |MIT|N/A|
 |[tar](https://www.npmjs.com/tar)|N/A|04/14/18|nerdcorez |ISC|N/A|
+|[test](https://www.npmjs.com/test)|N/A|02/26/21|techuila |MIT|N/A|
 |[ts-loader](https://www.npmjs.com/ts-loader)|v0.6.0|04/14/18|nerdcorez |MIT|N/A|
 |[tsc](https://www.npmjs.com/tsc)|N/A|04/14/18|nerdcorez |MIT|N/A|
 |[tsd](https://www.npmjs.com/tsd)|v0.6.5|04/14/18|nerdcorez |MIT|N/A|
@@ -834,4 +841,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
